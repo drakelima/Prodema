@@ -1,0 +1,239 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Profletras - Mestrado Profissional</title>
+
+	    <link rel="stylesheet" href="css/geral.css">
+	    <link rel="stylesheet" href="css/internas.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
+	    <script>
+	    $(document).ready(function(){
+	    	$(".submenu1").hide()
+
+  			$(".sobre_o_curso").click(function(){
+    			$(".submenu1").slideToggle(400);
+  			});
+		});
+			
+
+
+	    </script>
+
+	</head>
+	<body>
+		
+		 <!-- 	 1)Inserir hover em imagem	-->
+		 <!-- 	 2)Inserir hover em link	-->
+		 <!-- 	 3)Inserir background no menu com hover	-->
+		 <!-- 	 4)altura do conteudo total diferente do layout	    OK!     -->  
+		 <!-- 	 5)Inserir lupa dentro da barra de pesquisa	-->
+		 <!-- 	 6)Isolar os icones de facebook,esclamação sem cursor	-->
+
+			
+	<div class = "bg">		
+		<header>
+			<div class = "bloco">
+				<a class = "img_logo" href = "index.html">
+					<img src = "img/layout_prodema.png" />
+				</a>
+				<span class = "bloco1">
+					<p>Acessibilidade:</p>														
+					<a class = "icone_arquivo" title = "Ir para arquivos">  </a>   
+					<a class = "icone_fontmais" title = "Aumentar fonte"> </a>
+					<a class = "icone_fontmenos" title = "Diminuir fonte"> </a>
+					<a class = "icone_contraste" title = "Contraste"> </a>
+					<span class = "linha">
+						<img src = "img/linha.png" /> 
+					</span>
+					<a class = "icone_home" href = "index.html" title = "Ir para pagina inicial"> </a>
+					<a class = "icone_tabela" title = "Mostrar tabela"> </a>
+				</span>
+				
+				
+				<form class = "bloco2"> 
+					
+					<input type = "text" value = "palavra-chave..."/>
+					
+					
+				</form>
+
+				<a class = "lupa" title = "Buscar"> <img src = "img/icon_lupa.png"/> </a>
+
+
+
+			</div>
+
+			
+			
+						
+		</header>
+	
+		
+		<nav>
+			
+			<ul>
+				
+				<li>	<a class = "sobre_o_curso">Sobre o Curso</a>	</li>
+				<li>	<a>	Estrutura de Rede</a>	</li>
+				<li>	<a href = "Estrutura_curricular.html">Estrutura Curricular</a>	</li>
+				<li>	<a href = "Notícias_lista.html">	Noticias</a>	</li>
+				<li>	<a href = "Fale_conosco.html">Fale Conosco</a>	</li>
+			</ul>
+			
+		</nav>
+
+		<div class = "submenu1">
+			<ul>
+				
+				<li><a href = "Apresentacao.html">Apresentação</a></li>
+				<li><a href = "Documento.html">Processo Seletivo</a></li>
+				<li><a href = "Documentos_lista.html">Documentos Importantes</a></li>
+				
+			</ul>
+
+
+
+		</div>
+		
+		<content>
+				
+				
+			<aside>
+					
+				<div class = "sistemas_academicos">
+
+					<h1 class = "sistema"> Sistemas Acadêmicos </h1>
+					
+					<a class = "img_acesso"><img src = "img/img_acesso.png" /></a>
+
+
+				</div>
+			
+				
+
+				<div class = "documentos_importantes">
+
+					<h1 class = "documentos"> Documentos Importantes </h1>
+					
+
+					<div class = "texto3">
+						<ul>
+							<li>-processo seletivo</li>
+							<li>-conselhos</li>
+							<li>-avaliações</li>
+							<li>-regimento</li>
+						</ul>
+					</div>
+
+						
+						
+					<div class = "mais_documentos">
+						<a href = "Documentos_lista.html"><p>Mais Documentos</p></a>
+					</div>	
+				</div>
+						
+					
+				<div class = "midias_sociais">
+				
+					<h1 class = "curtir"> Mídias Sociais </h1>
+
+					<span class = "bloco_imagem">
+						<a class = "imagem" title = "Facebook"> <img src = "img/icon_facebook.png" /> </a>
+						<a class = "imagem" title = "Flickr"> <img src = "img/icon_rosa.png" /> </a>
+						<a class = "imagem" title = "Dropbox"> <img src = "img/icon_dropbox.png" /> </a>
+						<a class = "imagem" title = "Youtube"> <img src = "img/icon_youtube.png" /> </a>
+						<a class = "imagem" title = "RSS"> <img src = "img/icon_rss.png" /> </a>
+					</span>
+
+				</div>
+			
+			</aside>
+
+
+
+
+				
+			<section class = "conteudo_total">
+				
+				<h1 class = "disciplinas"> Estrutura Curricular - Disciplinas </h1>
+
+				<p class = "fonte_estrutura">Para visualizar a ementa de cada disciplina, clique nos links abaixo:</p>
+
+				<ul class = "ul_estrutura">
+					<li><a class = "opcao">Alfabetização e letramento</a></li>
+					<li><a class = "opcao">Elaboração de projetos e tecnologia educacional</a></li>
+					<li><a class = "opcao">Fonologia, variação e ensino</a></li>
+					<li><a class = "opcao">Gramática, variação e ensino</a></li>
+					<li><a class = "opcao">Texto e ensino</a></li>
+					<li><a class = "opcao">Aspectos sociocognitivos e metacogniticos da leitura e da escrita</a></li>
+					<li><a class = "opcao">Leitura do texto literário</a></li>
+					<li><a class = "opcao">Ensino da escrita, didatização e avaliação</a></li>
+					<li><a class = "opcao">Linguagem, práticas sociais e ensino</a></li>
+					<li><a class = "opcao">Função sociossimbólica da linguagem</a></li>
+					<li><a class = "opcao">Práticas de oralidade e práticas letradas do 1º ao 5º ano</a></li>
+					<li><a class = "opcao">Práticas de oralidade e práticas letradas do 6º ao 9º ano</a></li>
+					<li><a class = "opcao">Erros de decodificação na leitura: rotas e graus de atipicidade dos sujeitos</a></li>
+					<li><a class = "opcao">Erros de escrita: previsibilidade e atipicidade</a></li>
+					
+				</ul>
+			
+			</section>
+			
+				
+			
+			
+		</content>
+			
+
+			<footer>
+				
+				<div class = "rodape">
+
+					<div class = "contato">
+						<h1>Fale Conosco</h1>
+						<p> Telefone: (84) XXXX-XXX </p>
+						<p>E-mail: <a>contato@prodema.ufrn.br</a></p>
+					</div>
+
+					
+
+					<div class = "imagem">
+						
+						<a class = "capes" title = "Capes"> Capes </a>
+						<a class = "ufrn" title = "UFRN"> UFRN </a>
+
+
+					</div>
+
+					<div class = "direitos">
+						<h1>Prodema</h1>
+						<p>Todos os direitos reservados © Copyright 2014</p>
+						<p>Desenvolvido pela <a>SINFO</a> </p>
+
+
+					</div>
+
+
+					
+
+				
+
+
+
+				</div>
+
+			
+			
+			</footer>
+	
+	
+	</div>
+		
+	
+	
+
+
+	</body>
+</html>
