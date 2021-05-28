@@ -1,4 +1,4 @@
-# Prodema
+## Prodema
 Site estático desenvolvido para alguns setores da UFRN
 
 ## Tecnologias
